@@ -1,0 +1,43 @@
+{
+  "name": "outbound-lead-waterfall-router",
+  "version": "1.0.0",
+  "description": "Cost-optimized, multi-tier lead enrichment waterfall for outbound: cache first, then Apollo, then Clearbit (or a compatible fallback), with budgets, rate limiting, retries, circuit breakers and PII-safe logging.",
+  "main": "src/index.js",
+  "bin": {
+    "lead-waterfall": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "sandbox": "node src/index.js --sandbox --input samples/leads.example.json --output results.local.json",
+    "test": "node --test"
+  },
+  "keywords": [
+    "lead-enrichment",
+    "waterfall-enrichment",
+    "outbound",
+    "apollo",
+    "clearbit",
+    "revops",
+    "sales-ops",
+    "rate-limiting",
+    "data-enrichment"
+  ],
+  "author": "DH Robin <https://dhrobinsystems.com> (dhRobin Systems)",
+  "license": "MIT",
+  "homepage": "https://github.com/dhrobinsystems/outbound-lead-waterfall-router#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhrobinsystems/outbound-lead-waterfall-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhrobinsystems/outbound-lead-waterfall-router/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "axios": "^1.21.1",
+    "dotenv": "^18.0.10",
+    "winston": "^3.19.0"
+  }
+}

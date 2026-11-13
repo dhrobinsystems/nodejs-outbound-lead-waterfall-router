@@ -1,0 +1,22 @@
+# Secrets - never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Enrichment outputs and caches contain personal data - keep them local
+.cache/
+*.local.json
+results*.json
+!samples/*.json
+
+# Logs & OS / editor noise
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+coverage/
