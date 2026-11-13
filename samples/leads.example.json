@@ -1,0 +1,17 @@
+{
+  "_comment": "Fictional placeholder leads for SANDBOX_MODE demos and tests. Every address uses a reserved example.* domain (RFC 2606). Never commit real prospect data.",
+  "leads": [
+    { "id": "lead-001", "email": "jane.doe@example.com", "first_name": "Jane", "last_name": "Doe", "company_name": "Example Co" },
+    { "id": "lead-002", "email": "john.sample@example.org", "first_name": "John", "last_name": "Sample" },
+    { "id": "lead-003", "first_name": "Alex", "last_name": "Placeholder", "company_domain": "acme.example.com", "company_name": "Acme Example" },
+    { "id": "lead-004", "email": "ops.lead@example.net" },
+    { "id": "lead-005", "email": "sales.contact@demo.example.com", "company_name": "Demo Example Ltd" },
+    { "id": "lead-006", "first_name": "Sam", "last_name": "Testperson", "company_domain": "widgets.example.org" },
+    { "id": "lead-007", "email": "revops.manager@example.com", "first_name": "Riley", "last_name": "Example" },
+    { "id": "lead-008", "email": "growth.team@sandbox.example.net" },
+    { "id": "lead-009", "email": "jane.doe@example.com", "first_name": "Jane", "last_name": "Doe", "_note": "duplicate of lead-001: served from cache on later runs" },
+    { "id": "lead-010", "email": "not-a-valid-email", "_note": "rejected by validation; no credits spent" },
+    { "id": "lead-011", "first_name": "OnlyFirstName", "_note": "insufficient identifiers; no credits spent" },
+    { "id": "lead-012", "email": "pat.morgan@example.org", "first_name": "Pat", "last_name": "Morgan", "company_domain": "example.org" }
+  ]
+}
